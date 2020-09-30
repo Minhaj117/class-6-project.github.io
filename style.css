@@ -1,0 +1,143 @@
+body {
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.topbar {
+  overflow: hidden;
+  background-color: #166fe5;
+}
+.contact-icon {
+  width: 80%;
+  float: left;
+}
+.contact-icon i {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+}
+.contact-icon a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.social-icon {
+  width: 20%;
+  float: right;
+}
+.social-icon i {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px;
+}
+.header {
+  overflow: hidden;
+}
+.logo {
+  width: 30%;
+  float: left;
+}
+.logo img {
+  height: auto;
+  width: 125px;
+  padding-top: 15px;
+}
+.navbar {
+  width: 60%;
+  float: right;
+  overflow: hidden;
+}
+.navbar a {
+  float: left;
+  font-size: 18px;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  color: #166fe5;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .btndrop {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  font-family: inherit;
+  color: #166fe5;
+  font-size: 18px;
+  margin: 0;
+  padding: 30px 16px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f0f2f5;
+  width: 180px;
+}
+.dropdown-content a {
+  float: none;
+  color: #166fe5;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.slider img {
+  height: 450px;
+  width: 100%;
+  margin-bottom: -4px;
+}
+.heading {
+  background-color: #166fe5;
+}
+.heading h2 {
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 0;
+}
+.about {
+  overflow: hidden;
+}
+.story {
+  width: 45%;
+  float: left;
+}
+.story p {
+  text-align: justify;
+}
+.about-image {
+  width: 45%;
+  float: right;
+}
+.about-image img {
+  width: 490px;
+}
+.service-area {
+  overflow: hidden;
+}
+.service {
+  width: 200px;
+  float: left;
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.service-area p {
+  text-align: justify;
+}
+.service i {
+  color: #166fe5;
+  font-size: 64px;
+  padding: 20px;
+}
